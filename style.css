@@ -1,0 +1,35 @@
+/* Definindo a cor vermelho cereja */
+:root {
+    --vermelho-cereja: #ff4d4d; /* Vermelho Cereja */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Estilizando a navbar e offcanvas */
+.navbar, .offcanvas-body, .offcanvas-header, .dropdown-menu {
+    background-color: var(--vermelho-cereja) !important; /* Cor de fundo da navbar */
+}
+
+/* Estilizando os links da navbar */
+.navbar-brand, .nav-link {
+    color: white !important; /* Cor do texto na navbar */
+}
+
+/* Estilizando os itens do dropdown */
+.dropdown-item {
+    color: white !important; /* Cor do texto dos itens do dropdown */
+}
+
+.dropdown-item:hover {
+    background-color: #ff7f7f !important; /* Cor de fundo ao passar o mouse */
+    color: white !important; /* Mantém a cor do texto ao passar o mouse */
+}
+
+/* Estilizando os itens do menu */
+.nav-item:hover .nav-link {
+    background-color: #ff7f7f !important; /* Cor de fundo ao passar o mouse */
+    color: white !important; /* Mantém a cor do texto ao passar o mouse */
+}
